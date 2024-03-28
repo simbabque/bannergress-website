@@ -22,7 +22,7 @@ const EventsPreview: React.FC = () => {
     <div>
       <h1>{t('events.title')}</h1>
       <BannerList
-        banners={data.slice(0, 3)}
+        banners={data}
         hasMoreBanners={false}
         hideBlacklisted={false}
         showDetailsButton={false}
